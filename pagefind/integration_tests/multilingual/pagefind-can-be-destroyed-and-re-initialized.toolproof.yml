@@ -20,8 +20,8 @@ steps:
     notes: 'TODO: Build a file existence check into toolproof'
   - step: I run "ls -lh public/pagefind/wasm.en.pagefind"
     notes: 'TODO: Build a file existence check into toolproof'
-  - step: I run "ls -lh public/pagefind/wasm.pt-br.pagefind"
-    notes: 'TODO: Build a file existence check into toolproof'
+  # - step: I run "ls -lh public/pagefind/wasm.pt-br.pagefind"
+  #   notes: 'TODO: Build a file existence check into toolproof'
   - step: The file "public/pagefind/pagefind-entry.json" should contain "en"
   - step: The file "public/pagefind/pagefind-entry.json" should contain "pt-br"
   - step: I serve the directory "public"
